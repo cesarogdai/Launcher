@@ -1,6 +1,8 @@
 <resources>
 
     <string name = "app_name">Launcher</string>
+    <string name = "tuixt_back_pressed">You pressed back</string>
+    <string name = "tuinotfound_notifications">Not found</string>
         <string name="location_off">Turn on GPS</string>
         <string name="share_label">Share</string>
 
