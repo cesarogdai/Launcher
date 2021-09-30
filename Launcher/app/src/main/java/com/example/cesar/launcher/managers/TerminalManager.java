@@ -317,13 +317,13 @@ public class TerminalManager {
 //        DO NOT USE THE INTENT APPROACH
 //        apps are not launching properly, when one has been launched, an other attempt will show always the same
 //
-//        Intent intent = new Intent(MainManager.ACTION_EXEC);
-//        intent.putExtra(MainManager.CMD, cmd);
-//        intent.putExtra(MainManager.CMD_COUNT, MainManager.commandCount);
+//        Intent intent = new Intent(com.example.cesar.launcher.MainManager.ACTION_EXEC);
+//        intent.putExtra(com.example.cesar.launcher.MainManager.CMD, cmd);
+//        intent.putExtra(com.example.cesar.launcher.MainManager.CMD_COUNT, com.example.cesar.launcher.MainManager.commandCount);
 //
 //        Parcelable p = null;
 //        if(obj instanceof Parcelable) p = (Parcelable) obj;
-//        intent.putExtra(MainManager.PARCELABLE, p);
+//        intent.putExtra(com.example.cesar.launcher.MainManager.PARCELABLE, p);
 //
 //        LocalBroadcastManager.getInstance(mContext.getApplicationContext()).sendBroadcast(intent);
 
